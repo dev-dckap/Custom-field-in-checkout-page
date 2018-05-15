@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+   /*
+   * *
+   *  @author DCKAP Team
+   *  @copyright Copyright (c) 2018 DCKAP (https://www.dckap.com)
+   *  @package Dckap_CustomFields
+   */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Api/etc/extension_attributes.xsd">
+   <extension_attributes for="Magento\Checkout\Api\Data\ShippingInformationInterface">
+       <attribute code="input_custom_shipping_field" type="string" />
+       <attribute code="date_custom_shipping_field" type="string" />
+       <attribute code="select_custom_shipping_field" type="string" />
+   </extension_attributes>
+</config>
